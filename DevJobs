@@ -1,0 +1,73 @@
+# DevJobs – Plataforma de Vagas para Desenvolvedores
+
+![Status do Projeto](https://img.shields.io/badge/status-concluído-brightgreen)
+
+## Descrição
+
+**DevJobs** é uma plataforma web para conectar desenvolvedores a oportunidades de trabalho na área de tecnologia. O sistema permite que empresas publiquem vagas e que profissionais encontrem ofertas com base em filtros como tecnologia, nível de experiência e tipo de contrato.
+
+Foi desenvolvido como parte do meu portfólio pessoal para demonstrar habilidades em desenvolvimento fullstack com React e Node.js.
+
+## Tecnologias Utilizadas
+
+### Frontend
+- React
+- React Router
+- Axios
+- Styled Components
+
+### Backend
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+- JWT para autenticação
+
+### Outras ferramentas
+- Git & GitHub
+- Figma (protótipos)
+- Insomnia (testes de API)
+
+## Funcionalidades
+
+- [x] Cadastro e login de usuários (devs e empresas)
+- [x] CRUD de vagas (apenas para empresas)
+- [x] Lista de vagas públicas com filtros por:
+  - Tecnologia
+  - Localização (remoto/presencial)
+  - Tipo de contrato
+- [x] Candidatura com 1 clique
+- [x] Área do candidato com histórico de inscrições
+
+## Demonstração
+
+![Demo](https://via.placeholder.com/800x400.png?text=Preview+do+DevJobs)
+
+> [Acessar a versão online do projeto](https://devjobs.gabrielmelosantiago.dev) _(opcional)_
+
+## O que eu aprendi
+
+Esse projeto me ajudou a:
+
+- Criar autenticação com JWT protegendo rotas no frontend e backend
+- Trabalhar com MongoDB e modelagem de dados com Mongoose
+- Melhorar a experiência do usuário com filtros dinâmicos
+- Implementar o padrão de design mobile-first
+- Organizar melhor pastas e componentes em aplicações React
+
+## Como executar localmente
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/gabrielmelosantiago/devjobs.git
+
+cd server
+npm install
+npm run dev
+
+
+cd client
+npm install
+npm start
+
